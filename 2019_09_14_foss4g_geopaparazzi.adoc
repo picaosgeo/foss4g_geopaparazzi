@@ -330,7 +330,7 @@ Geopaparazzi Survey Serverとの同期が、共同調査のために追加され
 
 情報: http://bit.ly/gss-workshop
 
-image::images/06_surveyor.png[width=80%]
+image::images/06_surveyors.png[width=80%]
 
 == ドキュメントとメーリングリスト
 
