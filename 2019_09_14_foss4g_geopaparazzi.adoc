@@ -27,8 +27,8 @@
 >
 > August 29th 2019
 
-== Who am I?
-image::images/first_page.png[background, size=contain]
+== 開発者紹介
+image::images/huge_icon.png[background, size=contain]
 
 * cofounder of http://www.hydrologis.com[HydroloGIS]
 * Contract professor in Advanced Geomatics at the https://www.unibz.it/[Free University of Bolzano]
@@ -44,7 +44,7 @@ image::images/first_page.png[background, size=contain]
 |===
 
 a|
-image::images/01_nexus5.png[] 
+image::images/01_himeji.jpg[] 
 
 a|
 * basically an engineering survey tool
