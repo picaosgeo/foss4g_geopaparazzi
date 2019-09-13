@@ -15,7 +15,7 @@
 //:revealjs_parallaxBackgroundImage: first_page.png
 //:revealjs_parallaxBackgroundSize: no-repeat,contain
 :source-highlighter: coderay
-:title-slide-background-image: images/logos_transp.png
+:title-slide-background-image: images/huge_icon.png
 //:title-slide-background-color: red
 :title-state: centerp
 
@@ -44,7 +44,7 @@ image::images/huge_icon.png[background, size=contain]
 |===
 
 a|
-image::images/01_himeji.jpg[] 
+image::images/01_himeji.jpg[]
 
 a|
 * basically an engineering survey tool
@@ -61,7 +61,7 @@ management, general field activities
 
 == Base functionalities
 
-image::images/geopaparazzi_00.png[width=70%] 
+image::images/geopaparazzi_00.png[width=70%]
 
 NOTE: Notes, images and gps logs are saved in the project file.
 
@@ -71,7 +71,7 @@ NOTE: Notes, images and gps logs are saved in the project file.
 
 * locked to ancient mapsforge version
 * looking for funds to migrate to new rendering system
-* considering 
+* considering
     - Nasa World Wind Android (no OSM tile system)
     - latest mapsforge
 
@@ -107,21 +107,21 @@ Why? Because it was extremely smooth and its 3D appealing... and it has vector t
 [text-align="center"]
 We can finally use layers.
 
-image::newimg/01_layers.png[width=70%] 
+image::newimg/01_layers.png[width=70%]
 
 == !
 
 And they are drag and drop!
 
-image::newimg/02_layers_dnd.png[width=30%] 
+image::newimg/02_layers_dnd.png[width=30%]
 
-== ! 
+== !
 
 They can be overlayed: mbtiles over mapsforge
 
-image::newimg/03_overlay.png[width=30%] 
+image::newimg/03_overlay.png[width=30%]
 
-== ! 
+== !
 
 Depending on their source layers have properties.
 
@@ -131,7 +131,7 @@ image::newimg/04_transparency.png[width=70%]
 
 == Editable layers
 
-If a layer is editable (at the time spatialite layers), then it can be enabled for editing 
+If a layer is editable (at the time spatialite layers), then it can be enabled for editing
 from the layers view:
 
 image::newimg/11_editing.png[width=70%]
@@ -162,22 +162,22 @@ image::newimg/06_3d.png[width=100%]
 
 //== VTM Themes
 //
-//It is also possible to apply themes to VTM compatible layers. Mind that not always the theme definition is 
-//compatible with the dataset. That happens often with online vector tile sources. 
+//It is also possible to apply themes to VTM compatible layers. Mind that not always the theme definition is
+//compatible with the dataset. That happens often with online vector tile sources.
 //
 //image::newimg/07_themes.png[width=100%]
 
 
 == Labels and 3D layers
 
-The generates 3D and labels layer are always kept on top of everything else, to be able to show buildings 
+The generates 3D and labels layer are always kept on top of everything else, to be able to show buildings
 on top of any map available.
 
 image::newimg/08_3dover.png[width=50%]
 
 == Mapsforge maps
 
-To avoid a complete caos due to all these additionally generated layers, mapsforge maps are merged together 
+To avoid a complete caos due to all these additionally generated layers, mapsforge maps are merged together
 and handled as one single map.
 
 image::newimg/09_multimap.png[width=100%]
@@ -209,7 +209,7 @@ image::newimg/12_issue.png[width=70%]
 [background-color="#378756"]
 == IOS support
 
-Recently we started working on IOS support for Geopaparazzi. 
+Recently we started working on IOS support for Geopaparazzi.
 
 During the analysis of the project we noticed a few things:
 
@@ -239,7 +239,7 @@ Today we call out for testing of its first version **0.1.0**.
 
 == SMASH
 
-SMASH opens up directly in the mapview and features a bottom toolbar and both left and right 
+SMASH opens up directly in the mapview and features a bottom toolbar and both left and right
 a slider for less common operations.
 
 image::newimg/13_smash.png[width=100%]
@@ -283,7 +283,7 @@ image::newimg/15_notes2.png[width=100%]
 
 == !
 
-Notes can be tapped on the map, which allows for quick info and the possibility to delete or 
+Notes can be tapped on the map, which allows for quick info and the possibility to delete or
 edit the note or view the image, if available.
 
 
@@ -291,7 +291,7 @@ image::newimg/20_tap_note.png[width=70%]
 
 == Forms
 
-Forms work the same way as in geopaparazzi. They support also icons and have in general a 
+Forms work the same way as in geopaparazzi. They support also icons and have in general a
 smoother user experience.
 
 image::newimg/16_forms.png[width=100%]
@@ -305,7 +305,7 @@ image::newimg/17_logs.png[width=100%]
 
 == GPS Info/Tools
 
-While tapping on the middle button centers the map on the GPS position, long tapping opens 
+While tapping on the middle button centers the map on the GPS position, long tapping opens
 the GPS info panel and the possibility to center on gps, rotate the map and copy the coordinates.
 
 image::newimg/18_gpstools.png[width=20%]
@@ -319,7 +319,7 @@ image::newimg/19_layers.png[width=20%]
 
 == Other nifty things
 
-You can select (_Available Icons_) the set of icons you want to use for the notes from the complete free FontAwesome 
+You can select (_Available Icons_) the set of icons you want to use for the notes from the complete free FontAwesome
 icons set.
 
 
@@ -328,7 +328,7 @@ image::newimg/22_icons.png[width=80%]
 == Other nifty things
 
 You can download mapsforge (_Offline Maps_) maps from within the app. Since mapsforge isn't performant at low zoomlevels,
-at the end of the download **an mbtiles cache** for the level 4 to 9 is created. In any case for mapsforge an mbtiles 
+at the end of the download **an mbtiles cache** for the level 4 to 9 is created. In any case for mapsforge an mbtiles
 cache is created during navigation.
 
 
@@ -343,7 +343,7 @@ Synchronization with the Geopaparazzi Survey Server will be added for centralize
 
 For info: http://bit.ly/gss-workshop
 
-image::images/06_surveyor.png[width=80%] 
+image::images/06_surveyor.png[width=80%]
 
 == Documentation and mailinglist
 
@@ -359,7 +359,7 @@ SMASH will also share the mailinglist with geopaparazzi.
 
 **http://www.geopaparazzi.eu will still be main entrypoint.**
 
-== Add missing features 
+== Add missing features
 
 Some of the missing features will be added:
 
@@ -382,7 +382,7 @@ At the moment we have a Release Candidate ready for testing here:
 
 http://bit.ly/geopaparazzi-6-RC1
 
-Please test and let us know: 
+Please test and let us know:
 
 https://github.com/geopaparazzi/geopaparazzi/issues
 
@@ -393,7 +393,7 @@ IOS users can test SMASH using the testflight app accessing this URL:
 
 http://bit.ly/smash-testing-ios
 
-while Android users can get the apk here: 
+while Android users can get the apk here:
 
 http://bit.ly/smash-testing-android
 
