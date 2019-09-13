@@ -91,7 +91,7 @@ After a initial try with the latest mapsforge and a small test with VTM, we then
 
 == 今どこにいるの？
 
-1. ポートが完成しました。
+1. 移行が完成しました。
 2. geopaparazziをAndroid 5互換に戻しました。
 3. ユーザーマニュアルは、ほぼ完全に新しいバージョンに移植されました。 私をポイント2に押し上げてくれたBrent Fraserに感謝します。
 4. 開発中に数か月間内部テストされました
